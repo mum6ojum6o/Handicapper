@@ -1,0 +1,14 @@
+logging:
+  file: handicapper.log
+  
+spring:
+  datasource:
+    password: 2019_ZXcv
+    url: jdbc:mysql://localhost:3306/topics
+    username: root
+   
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: mysql

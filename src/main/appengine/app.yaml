@@ -1,0 +1,13 @@
+runtime: java
+env: flex
+
+handlers:
+- url: /.*
+  script: this field is required, but ignored 
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 5
+  
+resources:
+  memory_gb: 4.5
